@@ -76,6 +76,7 @@ $profile->setFirstName('John')
     ->setLastName('User')
     ->setLogin('auser@example.com')
     ->setEmail('auser@example.com');
+
 $user->setProfile($profile);
 
 $credentials = new \Okta\Users\Credentials();
