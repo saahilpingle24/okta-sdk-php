@@ -858,7 +858,6 @@ class User {
     }
 
     /**
-     * Success
      */
     function addAllAppsAsTargetToRole($userId, $roleId)
     {
@@ -875,7 +874,6 @@ class User {
     }
 
     /**
-     * Success
      */
     function removeApplicationTargetFromApplicationAdministratorRoleForUser($userId, $roleId, $appName)
     {
@@ -892,7 +890,6 @@ class User {
     }
 
     /**
-     * Success
      */
     function addApplicationTargetToAdminRoleForUser($userId, $roleId, $appName)
     {
@@ -943,7 +940,6 @@ class User {
     }
 
     /**
-     * Success
      */
     function listGroupTargetsForRole($userId, $roleId, array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -967,7 +963,6 @@ class User {
     }
 
     /**
-     * Success
      */
     function removeGroupTargetFromRole($userId, $roleId, $groupId)
     {
@@ -984,7 +979,6 @@ class User {
     }
 
     /**
-     * Success
      */
     function addGroupTargetToRole($userId, $roleId, $groupId)
     {

@@ -35,7 +35,6 @@ class InlineHook {
     }
 
     /**
-     * Success
      */
     function listInlineHooks(array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -59,7 +58,6 @@ class InlineHook {
     }
 
     /**
-     * Success
      */
     function createInlineHook(\Okta\InlineHook\InlineHook $inlineHook) : \Okta\InlineHook\InlineHook 
     {

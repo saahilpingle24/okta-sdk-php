@@ -35,7 +35,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function listOrigins(array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -59,7 +58,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function createOrigin(\Okta\TrustedOrigin\TrustedOrigin $trustedOrigin) : \Okta\TrustedOrigin\TrustedOrigin 
     {
@@ -79,7 +77,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function deleteOrigin($trustedOriginId)
     {
@@ -96,7 +93,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function getOrigin($trustedOriginId) : \Okta\TrustedOrigin\TrustedOrigin 
     {
@@ -115,7 +111,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function updateOrigin($trustedOriginId, \Okta\TrustedOrigin\TrustedOrigin $trustedOrigin) : \Okta\TrustedOrigin\TrustedOrigin 
     {
@@ -135,7 +130,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function activateOrigin($trustedOriginId) : \Okta\TrustedOrigin\TrustedOrigin 
     {
@@ -154,7 +148,6 @@ class TrustedOrigin {
     }
 
     /**
-     * Success
      */
     function deactivateOrigin($trustedOriginId) : \Okta\TrustedOrigin\TrustedOrigin 
     {

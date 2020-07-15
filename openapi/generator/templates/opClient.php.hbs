@@ -18,7 +18,9 @@ class {{name}} {
 
     {{#each this.operation}}
     /**
+    {{#unless (eq description "Success")}}
      * {{description}}
+    {{/unless}}
      */
     function {{operationId}}({{{methodArgumentBuilder this}}}){{#if responseModel}} : {{{getMethodReturnType this}}} {{/if}}
     {

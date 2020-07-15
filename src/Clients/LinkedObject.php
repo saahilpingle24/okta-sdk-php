@@ -35,7 +35,6 @@ class LinkedObject {
     }
 
     /**
-     * Success
      */
     function listLinkedObjectDefinitions() : \Okta\Resource\Collection 
     {
@@ -58,7 +57,6 @@ class LinkedObject {
     }
 
     /**
-     * Success
      */
     function addLinkedObjectDefinition(\Okta\LinkedObject\LinkedObject $linkedObject) : \Okta\LinkedObject\LinkedObject 
     {
@@ -78,7 +76,6 @@ class LinkedObject {
     }
 
     /**
-     * Success
      */
     function deleteLinkedObjectDefinition($linkedObjectName)
     {
@@ -95,7 +92,6 @@ class LinkedObject {
     }
 
     /**
-     * Success
      */
     function getLinkedObjectDefinition($linkedObjectName) : \Okta\LinkedObject\LinkedObject 
     {

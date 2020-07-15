@@ -35,7 +35,6 @@ class Feature {
     }
 
     /**
-     * Success
      */
     function listFeatures() : \Okta\Resource\Collection 
     {
@@ -58,7 +57,6 @@ class Feature {
     }
 
     /**
-     * Success
      */
     function getFeature($featureId) : \Okta\Feature\Feature 
     {
@@ -77,7 +75,6 @@ class Feature {
     }
 
     /**
-     * Success
      */
     function listFeatureDependencies($featureId) : \Okta\Resource\Collection 
     {
@@ -100,7 +97,6 @@ class Feature {
     }
 
     /**
-     * Success
      */
     function listFeatureDependents($featureId) : \Okta\Resource\Collection 
     {
@@ -123,7 +119,6 @@ class Feature {
     }
 
     /**
-     * Success
      */
     function updateFeatureLifecycle($featureId, $lifecycle, array $queryParameters = []) : \Okta\Feature\Feature 
     {

@@ -35,7 +35,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listAuthorizationServers(array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -59,7 +58,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function createAuthorizationServer(\Okta\AuthorizationServer\AuthorizationServer $authorizationServer) : \Okta\AuthorizationServer\AuthorizationServer 
     {
@@ -79,7 +77,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function deleteAuthorizationServer($authServerId)
     {
@@ -96,7 +93,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function getAuthorizationServer($authServerId) : \Okta\AuthorizationServer\AuthorizationServer 
     {
@@ -115,7 +111,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function updateAuthorizationServer($authServerId, \Okta\AuthorizationServer\AuthorizationServer $authorizationServer) : \Okta\AuthorizationServer\AuthorizationServer 
     {
@@ -135,7 +130,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listOAuth2Claims($authServerId) : \Okta\Resource\Collection 
     {
@@ -158,7 +152,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function createOAuth2Claim($authServerId, \Okta\Application\OAuth2Claim $oAuth2Claim) : \Okta\Application\OAuth2Claim 
     {
@@ -178,7 +171,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function deleteOAuth2Claim($authServerId, $claimId)
     {
@@ -195,7 +187,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function getOAuth2Claim($authServerId, $claimId) : \Okta\Application\OAuth2Claim 
     {
@@ -214,7 +205,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function updateOAuth2Claim($authServerId, $claimId, \Okta\Application\OAuth2Claim $oAuth2Claim) : \Okta\Application\OAuth2Claim 
     {
@@ -234,7 +224,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listOAuth2ClientsForAuthorizationServer($authServerId) : \Okta\Resource\Collection 
     {
@@ -257,7 +246,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function revokeRefreshTokensForAuthorizationServerAndClient($authServerId, $clientId)
     {
@@ -274,7 +262,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listRefreshTokensForAuthorizationServerAndClient($authServerId, $clientId, array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -298,7 +285,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function revokeRefreshTokenForAuthorizationServerAndClient($authServerId, $clientId, $tokenId)
     {
@@ -315,7 +301,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function getRefreshTokenForAuthorizationServerAndClient($authServerId, $clientId, $tokenId, array $queryParameters = []) : \Okta\Application\OAuth2RefreshToken 
     {
@@ -335,7 +320,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listAuthorizationServerKeys($authServerId) : \Okta\Resource\Collection 
     {
@@ -358,7 +342,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function rotateAuthorizationServerKeys($authServerId, \Okta\Application\JwkUse $use) : \Okta\Resource\Collection 
     {
@@ -382,7 +365,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function activateAuthorizationServer($authServerId)
     {
@@ -399,7 +381,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function deactivateAuthorizationServer($authServerId)
     {
@@ -416,7 +397,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listAuthorizationServerPolicies($authServerId) : \Okta\Resource\Collection 
     {
@@ -440,7 +420,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function createAuthorizationServerPolicy($authServerId, \Okta\Policy\Policy $policy) : \Okta\Policy\Policy 
     {
@@ -461,7 +440,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function deleteAuthorizationServerPolicy($authServerId, $policyId)
     {
@@ -478,7 +456,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function getAuthorizationServerPolicy($authServerId, $policyId) : \Okta\Policy\Policy 
     {
@@ -498,7 +475,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function updateAuthorizationServerPolicy($authServerId, $policyId, \Okta\Policy\Policy $policy) : \Okta\Policy\Policy 
     {
@@ -519,7 +495,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function listOAuth2Scopes($authServerId, array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -543,7 +518,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function createOAuth2Scope($authServerId, \Okta\Application\OAuth2Scope $oAuth2Scope) : \Okta\Application\OAuth2Scope 
     {
@@ -563,7 +537,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function deleteOAuth2Scope($authServerId, $scopeId)
     {
@@ -580,7 +553,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function getOAuth2Scope($authServerId, $scopeId) : \Okta\Application\OAuth2Scope 
     {
@@ -599,7 +571,6 @@ class AuthorizationServer {
     }
 
     /**
-     * Success
      */
     function updateOAuth2Scope($authServerId, $scopeId, \Okta\Application\OAuth2Scope $oAuth2Scope) : \Okta\Application\OAuth2Scope 
     {

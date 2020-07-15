@@ -35,7 +35,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function listEventHooks() : \Okta\Resource\Collection 
     {
@@ -58,7 +57,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function createEventHook(\Okta\EventHook\EventHook $eventHook) : \Okta\EventHook\EventHook 
     {
@@ -78,7 +76,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function deleteEventHook($eventHookId)
     {
@@ -95,7 +92,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function getEventHook($eventHookId) : \Okta\EventHook\EventHook 
     {
@@ -114,7 +110,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function updateEventHook($eventHookId, \Okta\EventHook\EventHook $eventHook) : \Okta\EventHook\EventHook 
     {
@@ -134,7 +129,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function activateEventHook($eventHookId) : \Okta\EventHook\EventHook 
     {
@@ -153,7 +147,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function deactivateEventHook($eventHookId) : \Okta\EventHook\EventHook 
     {
@@ -172,7 +165,6 @@ class EventHook {
     }
 
     /**
-     * Success
      */
     function verifyEventHook($eventHookId) : \Okta\EventHook\EventHook 
     {

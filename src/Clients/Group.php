@@ -295,7 +295,6 @@ class Group {
     }
 
     /**
-     * Success
      */
     function listGroupAssignedRoles($groupId, array $queryParameters = []) : \Okta\Resource\Collection 
     {
@@ -357,7 +356,6 @@ class Group {
     }
 
     /**
-     * Success
      */
     function getRole($groupId, $roleId) : \Okta\User\Role 
     {
@@ -400,7 +398,6 @@ class Group {
     }
 
     /**
-     * Success
      */
     function removeApplicationTargetFromApplicationAdministratorRoleGivenToGroup($groupId, $roleId, $appName)
     {
@@ -417,7 +414,6 @@ class Group {
     }
 
     /**
-     * Success
      */
     function addApplicationTargetToAdminRoleGivenToGroup($groupId, $roleId, $appName)
     {
@@ -468,7 +464,6 @@ class Group {
     }
 
     /**
-     * Success
      */
     function listGroupTargetsForGroupRole($groupId, $roleId, array $queryParameters = []) : \Okta\Resource\Collection 
     {
