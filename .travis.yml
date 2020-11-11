@@ -17,6 +17,7 @@ before_script:
 script:
 - if [[ $TRAVIS_EVENT_TYPE != "cron" ]]; then vendor/bin/phpunit --verbose --coverage-clover build/logs/clover.xml; fi
 - if [[ $TRAVIS_EVENT_TYPE = "cron" ]]; then bash ./scripts/cron-test.sh; fi
+- "sleep.sh"
 after_success:
 - if [[ $COVERAGE = 'true' ]]; then bash <(curl -s https://codecov.io/bash); fi
 - if [[ $DEPLOY_DOCS = 'true' ]]; then wget -O sami.phar http://get.sensiolabs.org/sami.phar;
